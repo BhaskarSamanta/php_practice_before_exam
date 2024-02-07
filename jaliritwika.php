@@ -93,7 +93,7 @@
             SELECT COUNT(PID) 
             FROM Treatment 
             WHERE Treatment.DID = Doctor.DID 
-            AND Tdate = '2023-01-10' ) >=2;";
+            AND Tdate = '2023-01-10' ) >=2";
 
 
         $res = mysqli_query($conn, $amar_sql);
