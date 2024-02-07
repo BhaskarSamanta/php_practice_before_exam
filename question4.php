@@ -47,8 +47,7 @@
             //     date_reserved date
             //     )";
 
-            $sql="ALTER TABLE Gallery
-                ADD CONSTRAINT PRIMARY KEY (gid)
+            
             ";
 
 
